@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.Fragment_Add_SanPham">
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/LightSlateGray"
+                app:boxStrokeColor="@color/Gainsboro"
+                app:boxStrokeWidth="0px"
+                app:boxStrokeWidthFocused="1px"
+                android:textColorHint="@color/DarkGray"
+                app:boxBackgroundColor="@color/white"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputedittext_tenSanPham"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/bg_edittext"
+                    android:inputType="text"
+                    android:textSize="17dp"
+                    android:hint="Tên mặt hàng"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/LightSlateGray"
+                app:boxStrokeColor="@color/Gainsboro"
+                app:boxStrokeWidth="0px"
+                android:textColorHint="@color/DarkGray"
+                app:boxStrokeWidthFocused="1px"
+                app:boxBackgroundColor="@color/white"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputedittext_donvitinh"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/bg_edittext"
+                    android:inputType="text"
+                    android:textSize="17dp"
+                    android:hint="Đơn vị tính"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/LightSlateGray"
+                app:boxStrokeColor="@color/Gainsboro"
+                app:boxStrokeWidth="0px"
+                android:textColorHint="@color/DarkGray"
+                app:boxStrokeWidthFocused="1px"
+                app:boxBackgroundColor="@color/white"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputedittext_NuocSX"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/bg_edittext"
+                    android:inputType="textEmailAddress"
+                    android:textSize="17dp"
+                    android:hint="Nước sản xuất"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/LightSlateGray"
+                app:boxStrokeColor="@color/Gainsboro"
+                app:boxStrokeWidth="0px"
+                app:boxStrokeWidthFocused="1px"
+                android:textColorHint="@color/DarkGray"
+                app:boxBackgroundColor="@color/white"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputedittext_Gia"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/bg_edittext"
+                    android:inputType="number"
+                    android:textSize="17dp"
+                    android:maxLength="18"
+                    android:hint="Giá sản phẩm"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/LightSlateGray"
+                app:boxStrokeColor="@color/Gainsboro"
+                app:boxStrokeWidth="0px"
+                app:boxStrokeWidthFocused="1px"
+                android:textColorHint="@color/DarkGray"
+                app:boxBackgroundColor="@color/white"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputedittext_SoLuong"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/bg_edittext"
+                    android:inputType="number"
+                    android:textSize="17dp"
+                    android:maxLength="9"
+                    android:hint="Số lượng sản phẩm"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/LightSlateGray"
+                android:textColorHint="@color/DarkGray"
+                app:boxStrokeColor="@color/Gainsboro"
+                android:layout_marginTop="10dp"
+                app:boxStrokeWidth="0px"
+                app:boxStrokeWidthFocused="1px"
+                app:boxBackgroundColor="@color/white"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputedittext_ChiTietSanPham"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/bg_edittext"
+                    android:inputType="textMultiLine"
+                    android:textSize="17dp"
+                    android:hint="Ghi chú"
+                    android:minLines="5"
+                    android:gravity="top"
+                    android:textAlignment="gravity"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginTop="5dp"
+                android:id="@+id/buttonaddSanPham"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/DarkGray"
+                android:text="Send"
+                />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

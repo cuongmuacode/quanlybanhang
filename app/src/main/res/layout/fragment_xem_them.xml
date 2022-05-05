@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/framexemthem"
+    tools:context=".fragment.FragmentXemThem"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/gray_100"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:text="Thiết lập"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/xemthem_khachang"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_person_outline_24"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:text="Khách hàng"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/xemthem_taikhoan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_account_circle_24"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:text="Tài khoản"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/xemthem_donvitinh"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_speed_24"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:text="Đơn vị tính"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/xem_mayin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_print_24"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:text="Máy in"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/xemthem_danhmuc"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_snippet_folder_24"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:text="Danh mục"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/xemthem_mathang"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_store_24"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:text="Mặt hàng"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/gray_100"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:text="Khác"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/xemthem_baocaotonghop"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_data_usage_24"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:text="Báo cáo tổng hợp"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/xemthem_nhaphang"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_wysiwyg_24"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:text="Nhập hàng"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/xemthem_caidat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_settings_24"
+                android:drawablePadding="15dp"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:text="Cài Đặt"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

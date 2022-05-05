@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/gray_100"
+    tools:context=".fragment.FragmentThemSoLuong">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextColor="@color/LightSlateGray"
+        app:boxStrokeColor="@color/Gainsboro"
+        app:boxStrokeWidth="0px"
+        android:layout_marginTop="2dp"
+        app:boxStrokeWidthFocused="1px"
+        android:textColorHint="@color/DarkGray"
+        app:boxBackgroundColor="@color/white"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputedittext_add_SoLuong"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_edittext"
+            android:inputType="number"
+            android:textSize="17dp"
+            android:maxLength="9"
+            android:hint="Nhập Số lượng"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_add_soluong"
+        android:layout_width="match_parent"
+        android:background="@color/Gainsboro"
+        android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        />
+</LinearLayout>

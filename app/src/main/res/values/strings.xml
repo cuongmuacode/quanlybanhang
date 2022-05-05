@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Bán Hàng</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_favorite">Favorite</string>
+    <string name="nav_history">History</string>
+    <string name="nav_account">Account</string>
+    <string name="nav_myprofile">MyProfile</string>
+    <string name="nav_password">Password</string>
+    <string name="nav_banhang">Bán Hàng</string>
+    <string name="nav_hoadon">Hóa Đơn</string>
+    <string name="nav_baocao">Báo Cáo</string>
+    <string name="nav_xemthem">Thông tin</string>
+    <string name="nav_caidat">Cài Đặt</string>
+    <string name="nav_muahang">Mua Hàng</string>
+    <string name="nav_don_hang">Đơn hàng</string>
+    <string name="nav_thoat">Thoát</string>
+    <string name="nav_add">Thêm mới</string>
+    <string name="edit_timkiem">Tìm Kiếm</string>
+
+    <string name="nav_model_sua">Sửa</string>
+    <string name="nav_model_xoa">Xóa</string>
+    <string name="nav_model_them">Thêm số lượng</string>
+
+    <!--thong tin-->
+    <string name="xemthem_khachhang">Khách Hàng</string>
+    <string name="xemthem_taikhoan">Tài Khoản</string>
+    <string name="xemthem_donvitinh">Đơn Vị Tính</string>
+    <string name="xemthem_baocaotonghop">Báo Cáo Tổng Hợp</string>
+    <string name="xemthem_nhaphang">Nhập Hàng</string>
+    <string name="xemthem_danhmuc">Danh Mục</string>
+    <string name="xemthem_mayin">Máy In</string>
+    <string name="xemthem_mathang">Mặt hàng</string>
+    <!--Chi tiet moi thu-->
+    <string name="chitietSanPham_MoTa"><![CDATA[<html><body><b>Mô tả</b></body></html>]]></string>
+    <string name="chitietSanPham_TenSP"><![CDATA[<html><body><b>Tên sản phẩm</b></body></html>]]></string>
+    <string name="chitietSanPham_NuocSX"><![CDATA[<html><body><b>Nước sản phẩm</b></body></html>]]></string>
+    <string name="chitietSanPham_Gia"><![CDATA[<html><body><b>Giá sản phẩm</b></body></html>]]></string>
+    <string name="chitietSanPham_DonViTinh"><![CDATA[<html><body><b>Đơn vị tính</b></body></html>]]></string>
+    <string name="chitietSanPham_SoLuong"><![CDATA[<html><body><b>Số lượng</b></body></html>]]></string>
+
+
+    <string name="name_Dev">Lưu Mạnh Cường</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_colse">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
